@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .tab {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+
+      .square {
+        display: none;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+
+      .red {
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .tab:hover + .square {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tab red">
+      <img src="./img/Artboard 2 1.svg" alt="" />
+    </div>
+    <div class="square red">
+      <img src="./img/Artboard 2 1.svg" alt="" />
+    </div>
+
+    <div class="tab green"></div>
+
+    <div class="tab blue"></div>
+    <div class="square green"></div>
+    <div class="square blue"></div>
+  </body>
+</html>
